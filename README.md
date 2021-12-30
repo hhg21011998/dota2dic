@@ -57,4 +57,30 @@ Về mặt ưu điểm, Clean architecture đạt được:
 Về mặt nhược điểm:
 - Clean architecture do phân tách cấu trúc thành nhiều tầng nên dẫn đến việc số lượng code sinh ra là rất lớn.
 
+## Cấu trúc file
+```
+- /Dota2Dictionary
+	-/AppDelegate
+	-/Resource
+	-/Utility
+	-/Application
+		- Application.swift
+		-/Scene
+			-/Patch
+				- PatchNavigator.swift
+				- PatchViewController
+				-/ViewModel
+				-/View
+			-/PatchDetail	
+			-/Hero
+			-/HeroDetail
+…			
+	-/Platform
+		-/Network
+		-/UseCase
+	-/Domain
+		-/Entities
+		-/UseCase
+```
 
+## C 
