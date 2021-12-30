@@ -20,9 +20,13 @@
 ### 1. High level overview
 ![](https://raw.githubusercontent.com/sergdort/CleanArchitectureRxSwift/master/Architecture/Modules.png)
 Chia làm 3 folder chính: Mỗi folder sẽ chứa các file xử lý nhiệm vụ riêng biệt:
+
 `Domain` bao gồm các file Model để truy xuất dữ liệu từ API và các file UseCaseDomain dùng để khởi tạo các protocol cần thiết cho mỗi screen. Không phụ thuộc vào bất cứ thành phần nào của UI.
+
 `Platform` bao gồm các file dùng để phân tích API và các file UseCasePlatform thực thi các protocol được khởi tạo từ Domain. Làm việc trực tiếp với database tại folder này.
+
 `Application` bao gồm các file View và ViewModel. Là tầng chịu trách nhiệm cung cấp thông tin từ ứng dụng cho user và tiếp nhận những input từ user cho ứng dụng.
+
 <img src="https://raw.githubusercontent.com/sergdort/CleanArchitectureRxSwift/master/Architecture/MVVMPattern.png" width="50%" height="50%">
 
 ### 2. Tất cả ViewModel đều phải tuân thủ protocol ViewModelType
