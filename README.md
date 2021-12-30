@@ -11,7 +11,7 @@
 
 ## RxSwift: Reactive Programing
 ### Everything is a sequence.
-Sequence như là một mảng bất đồng bộ, các phần tử của nó không tồn tại cùng 1 thời điểm, giống như các hành động của user, không đoán trước được. Và RxSwift cung cấp cho ta một listener để lắng nghe và quan sát lúc nào phần tử được phát ra, cũng như bất cứ khi nào người dùng tương tác với ứng dụng; từ đó ta có thể react lại các sự kiện đó và thực hiện những hành động tương ứng để phản hồi lại người dùng.
+> Sequence như là một mảng bất đồng bộ, các phần tử của nó không tồn tại cùng 1 thời điểm, giống như các hành động của user, không đoán trước được. Và RxSwift cung cấp cho ta một listener để lắng nghe và quan sát lúc nào phần tử được phát ra, cũng như bất cứ khi nào người dùng tương tác với ứng dụng; từ đó ta có thể react lại các sự kiện đó và thực hiện những hành động tương ứng để phản hồi lại người dùng.
 ### RxSwift sử dụng higher order function
 
 
