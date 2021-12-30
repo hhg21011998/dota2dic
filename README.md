@@ -6,8 +6,8 @@
  - Thông tin chi tiết về các trang bị
  - Đăng nhập, đăng ký và hiển thị các vị tướng yêu thích
 
-![](https://raw.githubusercontent.com/hhg21011998plus/dota2dic/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-12-30%20at%2014.09.41.png){:height="50%" width="50%"}
-![](https://raw.githubusercontent.com/hhg21011998plus/dota2dic/master/Files/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-12-30%20at%2014.14.36.png){:height="50%" width="50%"}
+![](https://raw.githubusercontent.com/hhg21011998plus/dota2dic/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-12-30%20at%2014.09.41.png)
+<img src="https://raw.githubusercontent.com/hhg21011998plus/dota2dic/master/Files/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-12-30%20at%2014.14.36.png" width="100" height="100">
 
 
 ## RxSwift: Reactive Programing
