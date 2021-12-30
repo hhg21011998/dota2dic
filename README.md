@@ -6,8 +6,7 @@
  - Thông tin chi tiết về các trang bị
  - Đăng nhập, đăng ký và hiển thị các vị tướng yêu thích
 
-<img src="https://github.com/hhg21011998plus/dota2dic/blob/master/Files/gif1.gif" width="25%" height="25%"> | <img src="https://github.com/hhg21011998plus/dota2dic/blob/master/Files/gif2.gif" width="25%" height="25%">
-
+<img src="https://github.com/hhg21011998plus/dota2dic/blob/master/Files/gif1.gif" width="25%" height="25%"> | <img src="https://github.com/hhg21011998plus/dota2dic/blob/master/Files/gif2.gif" width="25%" height="25%"> | <img src="https://github.com/hhg21011998plus/dota2dic/blob/master/Files/gif3.gif" width="25%" height="25%">
 
 ## RxSwift: Reactive Programing
 ### Everything is a sequence.
