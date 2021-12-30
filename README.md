@@ -74,7 +74,7 @@ Về mặt nhược điểm:
 			-/PatchDetail	
 			-/Hero
 			-/HeroDetail
-…			
+			…			
 	-/Platform
 		-/Network
 		-/UseCase
@@ -82,5 +82,3 @@ Về mặt nhược điểm:
 		-/Entities
 		-/UseCase
 ```
-
-## C 
