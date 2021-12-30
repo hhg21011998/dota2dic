@@ -18,7 +18,9 @@
 
 ## Clean Architecture MVVM (Sergdort)
 ### 1. High level overview
-![](https://raw.githubusercontent.com/sergdort/CleanArchitectureRxSwift/master/Architecture/Modules.png)
+
+<img src="https://raw.githubusercontent.com/sergdort/CleanArchitectureRxSwift/master/Architecture/Modules.png" width="50%" height="50%"> 
+
 Chia làm 3 folder chính: Mỗi folder sẽ chứa các file xử lý nhiệm vụ riêng biệt:
 
 `Domain` bao gồm các file Model để truy xuất dữ liệu từ API và các file UseCaseDomain dùng để khởi tạo các protocol cần thiết cho mỗi screen. Không phụ thuộc vào bất cứ thành phần nào của UI.
