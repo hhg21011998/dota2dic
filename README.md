@@ -5,3 +5,15 @@
  - Thông tin chi tiết về các vị tướng
  - Thông tin chi tiết về các trang bị
  - Đăng nhập, đăng ký và hiển thị các vị tướng yêu thích
+
+![](https://raw.githubusercontent.com/hhg21011998plus/dota2dic/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-12-30%20at%2014.09.41.png)
+
+
+## RxSwift: Reactive Programing
+### Everything is a sequence.
+Sequence như là một mảng bất đồng bộ, các phần tử của nó không tồn tại cùng 1 thời điểm, giống như các hành động của user, không đoán trước được. Và RxSwift cung cấp cho ta một listener để lắng nghe và quan sát lúc nào phần tử được phát ra, cũng như bất cứ khi nào người dùng tương tác với ứng dụng; từ đó ta có thể react lại các sự kiện đó và thực hiện những hành động tương ứng để phản hồi lại người dùng.
+### RxSwift sử dụng higher order function
+
+
+## Clean Architecture MVVM (Sergdort)
+![](https://raw.githubusercontent.com/sergdort/CleanArchitectureRxSwift/master/Architecture/Modules.png)
