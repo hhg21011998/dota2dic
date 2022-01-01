@@ -32,7 +32,6 @@ class ProfileViewController: UIViewController {
     // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureNavigateBar()
         hideKeyboardWhenTappedAround()
         checkUserLoggedIn()
         tableViewRegister()
@@ -53,18 +52,6 @@ class ProfileViewController: UIViewController {
         profileTableView.register(UINib(nibName: ConstantsForCell.profileLikeTableViewCell,
                                         bundle: nil),
                                   forCellReuseIdentifier: ConstantsForCell.profileLikeTableViewCell)
-    }
-    
-    func configureNavigateBar() {
-        let appearance = UINavigationBarAppearance()
-        appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = UIColor(red: 75/255.0, green: 75/255.0, blue: 75/255.0, alpha: 0.25)
-        appearance.titleTextAttributes = [.font: UIFont.boldSystemFont(ofSize: 20.0),
-                                          .foregroundColor: UIColor.white]
-        // Customizing our navigation bar
-        navigationController?.navigationBar.standardAppearance = appearance
-        navigationController?.navigationBar.scrollEdgeAppearance = appearance
-        
     }
     
     // MARK: - Bind ViewModel
